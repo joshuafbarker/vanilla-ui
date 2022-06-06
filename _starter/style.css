@@ -1,0 +1,31 @@
+/* the smallest "reset" ever */
+
+/* fix box model sizings */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default margins */
+* {
+  margin: 0;
+}
+
+/*
+  activate percentage based heights
+  set default font family
+*/
+html,
+body {
+  height: 100%;
+  font-family: system-ui;
+}
+
+/* custom css */
+body {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
